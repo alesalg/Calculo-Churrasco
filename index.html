@@ -8,26 +8,35 @@
   </head>
   <body>
     <header class="main-header">
+      
       <h3>Calculadora de Churrasco</h3>
     </header>
 
-    <div >
-      <label for="mulheres-qnt">Mulheres</label>
-      <input id="mulheres-qnt" type="text" />
+    <div class='row'>
+      <div class='column'>
+        <label for="mulheres-qnt">Mulheres</label>
+        <input id="mulheres-qnt" type="text" />
 
-      <label for="homens-qnt">Homens</label>
-      <input id="homens-qnt" type="text" />
+        <label for="homens-qnt">Homens</label>
+        <input id="homens-qnt" type="text" />
 
-      <label for="criancas-qnt">Crianças</label>
-      <input id="criancas-qnt" type="text" />
-      <br>
+        <label for="criancas-qnt">Crianças</label>
+        <input id="criancas-qnt" type="text" />
+      </div>
 
-      <label for="acompanhamentos">acompanhamentos</label>
-      <input id="acompanhamentos" type="checkbox" />
+      <div class='column'>
+        <label for="bebidas-alcoolicas">Bebidas alcoolicas</label><br>
+        <input id="bebidas-alcoolicas" type="text" /><br>
+
+        <label for="bebidas-nao-alcoolicas">Bebidas não alcoolicas</label><br>
+      </div>
     </div>
     <br>
+    <label for ="acompanhamentos">Acompanhamentos inclusos ?</label>
+    <input id ="acompanhamentos" type="checkbox" /><br>
+    <label for ="vegetariano">Vegetariano incluso?</label>
+    <input id ="vegetariano" type="checkbox" /><br><br>
     <button id="botaoCalcular">Calcular</button>
-
       <div >
         <div>
             <label for="total-carne" id="total-carne">#</label>
