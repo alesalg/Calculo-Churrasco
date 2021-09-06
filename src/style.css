@@ -5,9 +5,11 @@ body {
     padding-left: 5%;
     background-color: black;
     color: white;
+    margin: 5%;
 }
 #img{
-    max-width: 50%;
+    max-width: 100%;
+    width: 700px;
 }
 
 label{
@@ -27,4 +29,7 @@ label{
 
 .column{
     margin: 2%;
+    max-width: 210px;
 }
+
+.botaoCalcular{}
